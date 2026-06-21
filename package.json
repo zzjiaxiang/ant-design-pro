@@ -91,6 +91,11 @@
     "typescript": "^6.0.3",
     "vitest": "4.1.8"
   },
+  "overrides": {
+    "@umijs/plugins": {
+      "@ant-design/pro-components": "$@ant-design/pro-components"
+    }
+  },
   "engines": {
     "node": ">=22.0.0"
   },
