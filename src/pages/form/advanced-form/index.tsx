@@ -130,7 +130,7 @@ const AdvancedForm: FC<Record<string, any>> = () => {
       await fakeSubmitForm(values);
       message.success('提交成功');
     } catch {
-      // console.log
+      message.error('提交失败，请重试！');
     }
   };
   const onFinishFailed = (errorInfo: any) => {
